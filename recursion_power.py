@@ -1,6 +1,6 @@
 def pwr(x, y):
-	if y == 0:
-		return 1
+	if y == 1:
+		return x
 	else:
 		return x * pwr(x, y - 1) 
 x = int(input('Enter a number:'))
